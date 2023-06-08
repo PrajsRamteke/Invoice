@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <table>
+            <caption class="caption-top;" style="padding-bottom: 15px; font-size: 25px;"><b>Tax Invoice</b></caption>
+            <tr>
+                <td rowspan="4" class="Brand">
+                    <p style="font-size: 18px; line-height: 1.5;margin-top: 5px;">
+                        <b style="font-size: 20px;cursor: pointer;" id="btn">HABUILD HEALTH PVT LTD</b><br>
+                        Bothra Complex ,Modelmill Square Ganeshpeth Nagpur<br>
+                        GSTIN/UIN: 27AAGCH2762R1ZX<br>
+                        State Name : Maharashtra, Code : 27<br>
+                        E-Mail : saurabhbothra@habuild.in<br>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="Brand">
+                        Invoice No.<br>
+                        <b id="invoiceNo">
+                            20230705/CIN/315
+                        </b>
+                    </p>
+                </td>
+                <td>
+                    <p class="Brand">
+                        Dated<br>
+                        <b id="invoiceDate">
+                            18-May-23
+                        </b>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="Brand">
+                        Delivery Note<br>
+                        <b>
+                            20230705/CIN/315
+                        </b>
+                    </p>
+                </td>
+                <td>
+                    <p class="Brand">
+                        Mode/Terms of Payment<br>
+                        <b>
+                            Razorpay
+                        </b>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="Brand">
+                        Reference No. & Date.<br>
+                        <b>1234</b>
+                    </p>
+                </td>
+                <td>
+                    <p class="Brand">
+                        Other References<br>
+                        <b>
+                            other
+                        </b>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+
+            </tr>
+
+            <!-- *************************************************** -->
+            <tr>
+                <td rowspan="5" class="Brand">
+                    <p style="font-size: 18px; line-height: 1.2;margin-top: 5px;">
+                        Consignee (Ship to)<br>
+                        <b>S Agrawal</b><br>
+                        21 A Building<br>
+                        21 Indian Corporation Complex<br>
+                        Dapoda Bhiwandi -421302<br>
+                        <span class="label1">GSTIN/UIN</span>: 27AAACX2263R1ZR<br>
+                        <span class="label2">State Name</span>: Maharashtra, Code: 27
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="Brand">
+                        Buyer’s Order No.<br>
+                        <b>
+                            20230705/CIN/315
+                        </b>
+                    </p>
+                </td>
+                <td>
+                    <p class="Brand">
+                        Dated<br>
+                        <b>
+                            18-May-23
+                        </b>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="Brand">
+                        Dispatch Doc No.<br>
+                        <b>
+                            20230705/CIN/315
+                        </b>
+                    </p>
+                </td>
+                <td>
+                    <p class="Brand">
+                        Delivery Note Date<br>
+                        <b>
+                            18-May-23
+                        </b>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="Brand">
+                        Dispatched through<br>
+                        <b>
+                            Delivery
+                        </b>
+                    </p>
+                </td>
+                <td>
+                    <p class="Brand">
+                        Destination<br>
+                        <b>
+                            Nagpur
+                        </b>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" rowspan="2">
+                    <P style=" text-align: left;
+            vertical-align: top; margin-top: 5px;">
+                        Terms of Delivery<br><br>
+                        <span style="display: block; width: 300px;">
+                            We deliver the product where our third party partner available.<br>
+                            Our delivery partner is <b>Delivery</b>.<br>
+                            You can google it if it's available in your area.
+
+                        </span>
+                    </P>
+                </td>
+            </tr>
+            <!-- ************************************************************** -->
+
+            <tr>
+                <td class="Brand">
+                    <p style="font-size: 18px; line-height: 1.2;margin-top: 5px;">
+                        Buyer (Bill to)<br>
+                        <b>S Agrawal</b><br>
+                        21 A Building<br>
+                        21 Indian Corporation Complex<br>
+                        Dapoda Bhiwandi -421302<br>
+                        <span class="label1">GSTIN/UIN</span>: 27AAACX2263R1ZR<br>
+                        <span class="label2">State Name</span>: Maharashtra, Code: 27
+                    </p>
+                </td>
+
+            </tr>
+
+            <!-- ********************************************************************* -->
+            <tr>
+                <td colspan="3" class="tdborder" style="padding: 0;">
+                    <table style=" width: 100%; border: none;">
+                        <tr>
+                            <th style="width: 4%;border-left:none">Sr<br>No.</th>
+                            <th style="width: 42%;">Description of<br>Services</th>
+                            <th>HSN/SAC</th>
+                            <th>Quantity</th>
+                            <th>Rate</th>
+                            <th style="width: 5%;">per</th>
+                            <th style="width: 15%;">Amount</th>
+                        </tr>
+                        <tr>
+                            <td style="border-left:none;text-align: center; vertical-align:top; padding:22px 0px 15px 0px;"
+                                rowspan="6">
+                                <b>1</b>
+                            </td>
+                            <td>
+                                <b>1 YEAR YOGA EVERYDAY</b>
+                            </td>
+                            <td rowspan="1">999723</td>
+                            <td>
+                                <b>1 NO</b>
+                            </td>
+                            <td>2,117.79</td>
+                            <td>NO</td>
+                            <td style="text-align:right">
+                                <b>2,117.79</b>
+                            </td>
+                        </tr>
+
+                        <!-- ****************************************                      -->
+                        <tr class="cgstTd">
+                            <td style="text-align:right">
+                                <b><i>CGST 9%</i></b>
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td style="text-align:right">
+                                <b>190.60</b>
+                            </td>
+                        </tr>
+                        <tr class="sgstTd">
+                            <td style="text-align:right">
+                                <b><i>SGST 9%</i></b>
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td style="text-align:right">
+                                <b>190.60</b>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- ********************************** -->
+            <tr>
+                <td colspan="7" style="text-align: right;padding:180px; vertical-align: top;">
+
+                    <p style="margin-top: -70px;">continued ...</p>
+                </td>
+            </tr>
+        </table>
+
+        <p style="text-align: center;line-height: 1.8;">
+            SUBJECT TO NAGPUR JURISDICTION<br>
+            This is a Computer Generated Invoice</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

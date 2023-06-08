@@ -1,0 +1,85 @@
+/** @format */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 200px 200px;
+}
+
+.container {
+  position: relative;
+  width: 900px;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+table {
+  border-collapse: collapse;
+  align-self: center;
+}
+
+table,
+th,
+td {
+  table-layout: fixed;
+  border: 1px solid black;
+}
+
+th {
+  border-top: none;
+  border-right: none;
+}
+
+td {
+  padding-left: 10px;
+  padding-right: 60px;
+  white-space: nowrap;
+  overflow: hidden;
+  vertical-align: top;
+}
+
+.Brand {
+  text-align: left;
+  vertical-align: top;
+  margin-top: 1px;
+  margin-bottom: 5px;
+}
+
+span.label1 {
+  display: inline-block;
+  text-align: right;
+  margin-right: 45px;
+  /* Adjust the margin as needed */
+}
+
+span.label2 {
+  display: inline-block;
+  text-align: right;
+  margin-right: 52px;
+  /* Adjust the margin as needed */
+}
+
+.tdborder td {
+  border-bottom: none;
+  border-right: none;
+  padding: 20px;
+}
+
+.cgstTd td {
+  border-top: none;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.sgstTd td {
+  border-top: none;
+  padding-top: -2px;
+  padding-bottom: 80px;
+}
+
+.caption-top,
+.caption-bottom {
+  text-align: center;
+}
